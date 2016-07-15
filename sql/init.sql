@@ -8,3 +8,4 @@ CREATE DATABASE airbnb_prod
   DEFAULT COLLATE utf8_general_ci;
 GRANT ALL PRIVILEGES ON airbnb_dev . * TO 'airbnb_user_dev'@'%';
 GRANT ALL PRIVILEGES ON airbnb_prod . * TO 'airbnb_user_prod'@'localhost';
+FLUSH PRIVILEGES;
